@@ -1,0 +1,27 @@
+@import url(styles.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-color: var(--fon4);
+}
+
+.Map{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 10% 5% 5% 5%;
+}
+
+.Bloc{
+    position:relative;overflow:hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.BlocEl{
+ position:relative;
+
+}

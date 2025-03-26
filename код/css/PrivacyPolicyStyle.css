@@ -1,0 +1,13 @@
+@import url(styles.css);
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fon2);
+}
+
+p{
+    color: black;
+}

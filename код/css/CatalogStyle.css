@@ -1,0 +1,6 @@
+@import url(styles.css);
+
+
+body{
+    background-color: var(--fon4);
+}

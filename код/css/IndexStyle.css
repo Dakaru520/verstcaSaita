@@ -1,0 +1,347 @@
+@import url(styles.css);
+
+/* Вестка на комп адаптация */
+@media(min-width: 1280px){
+.MainBlock1 {
+    width: 100%;
+    height: 105vh;
+    background-image: url('Pictures/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.MainAboutCompany {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--fon1);
+}
+
+
+#MainAboutCompanyIMG {
+    width: 40%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.TEXTMainAboutCompany {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 90vh;
+    margin: 8vh 5%;
+}
+
+
+.MainAvtorFood {
+    height: 80vh;
+    width: 100%;
+    /*background-color: var(--fon4);*/
+    background: linear-gradient(var(--fon1), 5%, var(--fon4));
+}
+
+.TextAvtorFood {
+    padding: 3vh 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AvtorFood {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ForFood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 40vh;
+    border-radius: 10px;
+    text-align: center
+}
+
+.SomeFood {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit:contain;
+}
+
+#Souse, #Pashtet ,#Desert {
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+}
+
+
+.MainComment {
+    height: 35vh;
+    width: 100%;
+    background-color: var(--fon2);
+}
+
+.ForComment {
+    margin: 2.5vh 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.comment {
+    height: 30vh;
+    width: 30%;
+    background-color: var(--forcom);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    justify-items: center;
+    align-items: center;
+    -webkit-box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+    -moz-box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+    box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+}
+}
+
+
+    /* адаптация на планшеты */
+
+
+@media(min-width: 768px) and (max-width: 1280px){
+        .MainBlock1 {
+            width: 100%;
+            height: 105vh;
+            background-image: url('Pictures/main.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        
+        .MainAboutCompany {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            background-color: var(--fon1);
+        }
+        
+        
+        #MainAboutCompanyIMG {
+            width: 35%;
+            height: auto;
+            object-fit: cover;
+        }
+        
+        .TEXTMainAboutCompany {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 55%;
+            height: auto;
+            margin: 8vh 5%;
+        }
+        
+        
+        .MainAvtorFood {
+            height: 80vh;
+            width: 100%;
+            /*background-color: var(--fon4);*/
+            background: linear-gradient(var(--fon1), 5%, var(--fon4));
+        }
+        
+        .TextAvtorFood {
+            padding: 3vh 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .AvtorFood {
+            padding: 0 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .ForFood {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25%;
+            height: 40vh;
+            border-radius: 10px;
+            text-align: center
+        }
+        
+        .SomeFood {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit:contain;
+        }
+        
+        #Souse, #Pashtet ,#Desert {
+            object-fit: cover;
+            width: auto;
+            height: 95%;
+        }
+        
+        
+        
+        .MainComment {
+            height: 35vh;
+            width: 100%;
+            background-color: var(--fon2);
+        }
+        
+        .ForComment {
+            margin: 2.5vh 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        
+        }
+        
+        .comment {
+            height: 30vh;
+            width: 30%;
+            background-color: var(--forcom);
+            display: flex;
+            flex-direction: column;
+            border-radius: 10%;
+            justify-items: center;
+            align-items: center;
+            -webkit-box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+            -moz-box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+            box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+        }
+}
+
+
+             /* адаптация на телефон */
+
+@media(max-width: 768px){
+        .MainBlock1 {
+            width: 100%;
+            height: 105vh;
+            background-image: url('Pictures/main2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        
+        .MainAboutCompany {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 130%;
+            background-color: var(--fon1);
+        }
+        
+        
+        #MainAboutCompanyIMG {
+            width: 0px;
+            /* width: 40%;
+            height: 100%;
+            object-fit: contain; */
+    
+        }
+        
+        .TEXTMainAboutCompany {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: 90vh;
+            margin: 8vh 5%;
+        }
+        
+        
+        .MainAvtorFood {
+            height: 130vh;
+            width: 100%;
+            /*background-color: var(--fon4);*/
+            background: linear-gradient(var(--fon1), 5%, var(--fon4));
+        }
+        
+        .TextAvtorFood {
+            padding: 3vh 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .AvtorFood {
+            padding: 0 10%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .ForFood {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            height: 30vh;
+            border-radius: 10px;
+            text-align: center
+        }
+        
+        .SomeFood {
+            height: 90%;
+            width: auto;
+            aspect-ratio: 1/1;
+            object-fit:contain;
+        }
+        
+        #Souse, #Pashtet ,#Desert {
+            object-fit: cover;
+            width: auto;
+            height: 80%;
+        }
+        
+        
+        .MainComment {
+            height: 90%vh;
+            width: 100%;
+            background-color: var(--fon2);
+        }
+        
+        .ForComment {
+            margin: 2.5vh 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        
+        }
+        #com3{
+            display: none;
+        }
+        .comment {
+            display: flex;
+            height: 30vh;
+            width: 45%;
+            background-color: var(--forcom);
+            display: flex;
+            flex-direction: column;
+            border-radius: 10%;
+            justify-items: center;
+            align-items: center;
+            -webkit-box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+            -moz-box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+            box-shadow: 5.5px 12.5px 14.5px 3.5px var(--fon1);
+        }
+}

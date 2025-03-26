@@ -1,0 +1,13 @@
+на работу
+футер. хеадер. адаптация. Оформить на каждой странице.
+Стили  оптимизация и комментарии
+
+Адаптация
+https://www.youtube.com/watch?v=LAq9p4mqrpI
+
+
+Для подключения css
+<link rel="stylesheet" href="css/...">
+
+Для подключения картинок
+<link rel="stylesheet" href="css/Pictures/...">
