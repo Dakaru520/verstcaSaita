@@ -46,7 +46,7 @@
 }
 
 .TextAvtorFood {
-    padding: 3vh 10%;
+    padding: 10vh 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -160,7 +160,7 @@
         }
         
         .TextAvtorFood {
-            padding: 3vh 10%;
+            padding: 10vh 10%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -276,7 +276,7 @@
         }
         
         .TextAvtorFood {
-            padding: 3vh 10%;
+            padding: 8vh 10%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;

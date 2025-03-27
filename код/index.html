@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вишневый сад</title>
+    <title>Вишневый сад | Главная</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/IndexStyle.css">
     <script src="js/Js.js"></script>
@@ -17,6 +17,13 @@
     <!--Скрипт Плавного скролла-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
             integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+
+            
+
+</head>
+
+<body>
+    <!-- Переделать не работает -->
         <script>
             SmoothScroll({
                 // Время скролла 400 = 0.4 секунды
@@ -47,11 +54,6 @@
             })
         </script>
 
-</head>
-
-<body>
-    
-
 
     <!--Главная страница-->
     <article class="MainBlock1" id="MainBlock1">
@@ -66,14 +68,14 @@
         
         <nav class="IndexHeadernav">
             <ul class="IndexHeaderul">
-                <li><a class="Abzach" class="IndexHeadera" href="#MainBlock1"><img id="LogoIMG"
+                <li><a class="IndexHeadera" href="#MainBlock1"><img id="LogoIMG"
                             src="css/Pictures/лого.svg"></a></li>
                 <li><a class="Abzach" class="IndexHeadera" id="nav" href="#MainAboutCompany">О Компании</a></li>
                 <li><a class="Abzach" class="IndexHeadera" id="nav" href="map.html">Местоположение</a></li>
                 <li><a class="Abzach" class="IndexHeadera" id="nav" href="Catalog.html">Каталог</a></li>
-            </ul>
-        </nav>
-        <div class="burger" id="burger">
+                <li class="IndexHeadera"><a  href="ДляВзаимодействия/Autoris.html"><img id="profileIMG" href=""
+                    src="css/Pictures/profile-user.svg"></a></li>
+                    <div class="burger" id="burger">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -83,22 +85,25 @@
                 <a class="Abzach" class="IndexHeadera"  href="map.html">Местоположение</a>
                 <a class="Abzach" class="IndexHeadera"  href="Catalog.html">Каталог</a>
             </nav>
+            </ul>
+        </nav>
+        
     </header>
     <!--О компании текст и картинка-->
     <article class="MainAboutCompany" id="MainAboutCompany">
         <img id="MainAboutCompanyIMG" src="css/Pictures/main2.jpg">
         <div class="TEXTMainAboutCompany">
-            <p class="Zagolovok1">О Компании</p>
-            <p class="Abzach">“Вишневый сад” ресторан-кондитерская которая находится на рынке белее 10 лет переживая
+            <h1 class="Zagolovok1">О Компании</h1>
+            <h5 class="Abzach">“Вишневый сад” ресторан-кондитерская которая находится на рынке белее 10 лет переживая
                 много
-                изменений и сейчас имеет внутри себя производство совершенно разной продукции.</p>
+                изменений и сейчас имеет внутри себя производство совершенно разной продукции.</h5>
 
-            <p class="Abzach">В кондитерской продукции вы можете встретить пироженные, конфеты, печенья, торты а
-                также хлеба.</p>
+            <h5 class="Abzach">В кондитерской продукции вы можете встретить пироженные, конфеты, печенья, торты а
+                также хлеба.</h5>
 
-            <p class="Abzach">Также можно увидеть разные соусы и паштеты. Еще можно купить из готовой продукции
+            <h5 class="Abzach">Также можно увидеть разные соусы и паштеты. Еще можно купить из готовой продукции
                 заморозку -
-                это вареники, блины и пельмени</p>
+                это вареники, блины и пельмени</h5>
 
 
         </div>
@@ -107,76 +112,76 @@
     <!--Авторские блюда-->
     <div class="MainAvtorFood">
         <div class="TextAvtorFood">
-            <p class="Zagolovok1">Авторские блюда</p>
+            <h1 class="Zagolovok1">Авторские блюда</h1>
             
         </div>
         <div class="AvtorFood">
             <div class="ForFood">
-                <p class="Zagolovok1">Соусы</p>
+                <h1 class="Zagolovok1">Соусы</h1>
                 <div class="SomeFood" ><img id="Souse" src="css/Pictures/yablo.jpg"></div>
 
             </div>
             <div class="ForFood">
-                <p class="Zagolovok1">Паштеты</p>
+                <h1 class="Zagolovok1">Паштеты</h1>
                 <div class="SomeFood" ><img id="Pashtet" src="css/Pictures/yablo.jpg"> </div>
 
             </div>
             <div class="ForFood">
-                <p class="Zagolovok1">Десерты</p>
+                <h1 class="Zagolovok1">Десерты</h1>
                 <div class="SomeFood" ><img id="Desert" src="css/Pictures/yablo.jpg"></div>
             </div>
         </div>
     </div>
 
-    <!--Коментрарии карусель-->
+    <!--Коментрарии карусель тоже  переделать чтобы было возможно добавить отзыв в будующем-->
     <div class="MainComment">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="ForComment">
                         <div class="comment" id="com1">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                         <div class="comment" id="com2">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                         <div class="comment" id="com3">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="ForComment">
                         <div class="comment" id="com1">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                         <div class="comment" id="com2">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                         <div class="comment" id="com3">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="ForComment">
                         <div class="comment" id="com1">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                         <div class="comment" id="com2">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                         <div class="comment" id="com3">
-                            <p class="CAbzach" id="ComName">Имя</p>
-                            <p class="Ctext" id="ComText">Комментарий</p>
+                            <p class="Abzach" id="ComName">Имя</p>
+                            <p class="text" id="ComText">Комментарий</p>
                         </div>
                     </div>
                 </div>

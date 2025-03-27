@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вишневый сад | Регистрация</title>
+    <link rel="stylesheet" href="../css/cssAction/cssReg.css">
+</head>
+<body>
+  <a href="../index.html">Вернуться на главную</a>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Форма регистрации</h1>
+          <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+          <hr>
+            <!--  -->
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Введите вашу почту" name="email" required>
+            <!--  -->
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Введите пароль" name="psw" required>
+            <!--  -->
+          <label for="psw-repeat"><b>Повторить пароль</b></label>
+          <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+            <!--  -->
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+          </label>
+          <!--  -->
+          <p>Создавая учетную запись, вы соглашаетесь с нашим <a href="#" style="color:dodgerblue">Условия и конфиденциальность</a>.</p>
+          <!--  -->
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Отменить</button>
+            <button type="submit" class="signupbtn">Регистрация</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>

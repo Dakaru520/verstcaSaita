@@ -11,3 +11,40 @@ https://www.youtube.com/watch?v=LAq9p4mqrpI
 
 Для подключения картинок
 <link rel="stylesheet" href="css/Pictures/...">
+
+
+/* h1, h2,h3,h4,h5{
+    font-family: 'Playfair Display Bold Italic';
+}
+p,a{
+    font-family: 'Playfair Display Italic';
+}
+.Zagolovok1, h1, h2 {
+    font-size: calc(36px);
+    font-family: 'Playfair Display Bold Italic';
+    color: var(--White);
+}
+
+.Zagolovok2,h3,h4 {
+    font-size: 32px;
+    font-family: 'Playfair Display Bold Italic';
+    color: var(--White);
+}
+
+.Abzach, .FAbzach,h5 {
+    font-size: 28px;
+    font-family: 'Playfair Display Italic';
+    color: var(--White);
+}
+
+.text, .Ftext {
+    font-size: 24px;
+    font-family: 'Playfair Display Italic';
+    color: var(--White);
+}
+#ComName {
+    color: var(--Black);
+}
+#ComText {
+    color: var(--Black);
+}  */
